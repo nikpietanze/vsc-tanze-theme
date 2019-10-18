@@ -1,0 +1,30 @@
+{
+  "name": "tanze",
+  "displayName": "TanZe",
+  "description": "A dark theme with bright coding colors for VSCode.",
+  "version": "1.0.1",
+  "publisher": "NikPietanze",
+  "engines": {
+    "vscode": "^1.23.1"
+  },
+  "repository": {
+		"type": "git",
+		"url": "https://github.com/nikpietanze/vsc-tanze-theme.git"
+	},
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+		"VSCode",
+		"Themes"
+	],
+  "contributes": {
+    "themes": [
+      {
+        "label": "TanZe",
+        "uiTheme": "vs-dark",
+        "path": "./themes/tanze-theme.json"
+      }
+    ]
+  }
+}
