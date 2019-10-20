@@ -1,6 +1,6 @@
 {
-	"name": "TanZe",
-	"type": "dark",
+  "name": "TanZe",
+  "type": "dark",
   "colors": {
     "focusBorder": "#FFFFFF00",
     "editorCursor.foreground": "#FFCC00",
@@ -52,21 +52,21 @@
     "tab.activeModifiedBorder": "#4B526D",
     "tab.unfocusedActiveBorder": "#464B5D",
     "tab.activeForeground": "#FFFFFF",
-    "tab.inactiveForeground": "#4B526D",
+    "tab.inactiveForeground": "#8F93A2",
     "tab.inactiveBackground": "#0F111A",
     "tab.unfocusedActiveForeground": "#8F93A2",
     "tab.border": "#0F111A",
     "statusBar.noFolderBackground": "#0F111A",
-    "statusBar.border": "#00000060",
+    "statusBar.border": "#161b27",
     "statusBar.background": "#090B10",
-    "statusBar.foreground": "#4B526D",
+    "statusBar.foreground": "#8F93A2",
     "statusBar.debuggingBackground": "#C792EA",
     "statusBar.debuggingForeground": "#ffffff",
     "statusBarItem.hoverBackground": "#464B5D20",
     "statusBarItem.remoteForeground": "#000000",
     "statusBarItem.remoteBackground": "#80CBC4",
     "activityBar.background": "#090B10",
-    "activityBar.border": "#00000060",
+    "activityBar.border": "#161b27",
     "activityBar.foreground": "#8F93A2",
     "activityBarBadge.background": "#80CBC4",
     "activityBarBadge.foreground": "#000000",
@@ -76,8 +76,8 @@
     "titleBar.inactiveForeground": "#4B526D",
     "titleBar.border": "#00000060",
     "sideBar.background": "#090B10",
-    "sideBar.foreground": "#4B526D",
-    "sideBar.border": "#00000060",
+    "sideBar.foreground": "#CCCCCC",
+    "sideBar.border": "#161b27",
     "sideBarTitle.foreground": "#8F93A2",
     "sideBarSectionHeader.background": "#090B10",
     "sideBarSectionHeader.border": "#00000060",
@@ -129,7 +129,7 @@
     "editorWidget.resizeBorder": "#80CBC4",
     "editorWidget.border": "",
     "editorMarkerNavigation.background": "#8F93A205",
-    "panel.border": "#00000060",
+    "panel.border": "#161b27",
     "panel.background": "#090B10",
     "panel.dropBackground": "#8F93A2",
     "panelTitle.inactiveForeground": "#8F93A2",
@@ -156,7 +156,7 @@
     "gitDecoration.conflictingResourceForeground": "#FFCB6B90",
     "gitDecoration.modifiedResourceForeground": "#82AAFF90",
     "gitDecoration.untrackedResourceForeground": "#C3E88D90",
-    "gitDecoration.ignoredResourceForeground": "#4B526D90",
+    "gitDecoration.ignoredResourceForeground": "#8F93A2",
     "peekViewResult.selectionBackground": "#4B526D70",
     "breadcrumb.background": "#0F111A",
     "breadcrumb.foreground": "#4B526D",
@@ -187,7 +187,7 @@
     "listFilterWidget.noMatchesOutline": "#00000030",
     "tree.indentGuidesStroke": "#3B3F51"
   },
-	"tokenColors": [
+  "tokenColors": [
     {
       "name": "Comment",
       "scope": "comment",
@@ -263,7 +263,9 @@
         "meta.jsx.children.js",
         "meta.property-value.css",
         "text.html.derivative",
-        "text.html.vue-html"
+        "text.html.vue-html",
+        "text.html.django",
+        "source.python"
       ],
       "settings": {
         "foreground": "#fcfcfc"
