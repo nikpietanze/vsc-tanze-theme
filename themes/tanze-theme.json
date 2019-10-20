@@ -264,10 +264,7 @@
         "meta.property-value.css",
         "text.html.derivative",
         "text.html.vue-html",
-<<<<<<< HEAD
         "text.html.django",
-=======
->>>>>>> 00933465273a21c0122924f4c087edee619c947a
         "source.python"
       ],
       "settings": {
