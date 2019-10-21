@@ -265,6 +265,7 @@
         "text.html.derivative",
         "text.html.vue-html",
         "text.html.django",
+        "text.html.jinja",
         "source.python"
       ],
       "settings": {
